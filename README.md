@@ -8,4 +8,4 @@ Tema- Auxiliar culinário: Aplicativo culinário para você, indeciso ou não, c
 
 -15/03/2022: Base Wireframe sem SplashScreen:
 
-https://meet.google.com/xmt-butu-gwv
+![image](https://user-images.githubusercontent.com/89554510/158917524-2c45a0ef-3443-4905-8e35-8adaaf2ad21d.png)
