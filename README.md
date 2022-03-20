@@ -51,13 +51,12 @@ Todos os testes foram um sucesso e funcionaram corretamente.
  *Nome: Profeta do Rango.
  *Slogan: Ele sabe exatamente o que você precisa para matar a sua fome.
 
-            2- Init no Projeto.
+ 2- Init no Projeto.
 
 
-            3- Organização MVN.
+ 3- Organização MVN.
 
 
-            4- Integração do Banco de dados.
- *Conforme modelo disposto na documentação:
-    https://aboutreact.com/example-of-sqlite-database-in-react-native/
+ 4- Integração do Banco de dados.
+  *Conforme modelo disposto na documentação: https://aboutreact.com/example-of-sqlite-database-in-react-native/
 
