@@ -44,3 +44,16 @@ Tela da receita escolhida:
 
 Foi escolhido o banco de dados Sqlite e foi iniciado os testes de registro, login, delete de login entre outros.
 Todos os testes foram um sucesso e funcionaram corretamente.
+
+
+20/03/2022: 1- Escolha do nome e Slogan.
+
+ *Nome: Profeta do Rango.
+ *Slogan: Ele sabe exatamente o que você precisa para matar a sua fome.
+
+            2- Init no Projeto.
+            3- Organização MVN.
+            4- Integração do Banco de dados.
+ *Conforme modelo disposto na documentação:
+    https://aboutreact.com/example-of-sqlite-database-in-react-native/
+
