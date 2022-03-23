@@ -5,10 +5,10 @@ import {View,
         TouchableOpacity} from 'react-native';
 
 
-function RecipeRegister({navigation}) {
+function SuggestionsScreen({navigation}) {
   return (
     <View style = {styles.container}>
-      <Text>Recipe Register</Text>
+      <Text>Suggestions Screen</Text>
     </View>
   );
 };
@@ -21,4 +21,4 @@ const styles = StyleSheet.create({
     },
   });
 
-export default RecipeRegister;
+export default SuggestionsScreen;
