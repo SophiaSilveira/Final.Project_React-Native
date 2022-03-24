@@ -8,6 +8,8 @@ import {
   View,
 } from 'react-native';
 
+
+
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
@@ -28,7 +30,7 @@ import UserUpdate from './src/pages/UserUpdate';
 
 const Stack = createNativeStackNavigator();
 
-function App() {
+export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName={"SplashScreen"}>
@@ -51,4 +53,3 @@ function App() {
   );
 };
 
-export default App;
