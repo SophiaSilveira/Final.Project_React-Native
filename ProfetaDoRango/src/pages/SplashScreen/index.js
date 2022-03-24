@@ -11,8 +11,8 @@ function SplashScreen({navigation}) {
       <Text>Splash Screen</Text>
       <TouchableOpacity
         onPress = { () =>
-          navigation.navigate('AdmLogin')}>
-           <Text>Ir AdmLogin</Text>
+          navigation.navigate('UserOption')}>
+           <Text>Ir UserOption</Text>
       </TouchableOpacity>
     </View>
   );

@@ -20,6 +20,11 @@ function Home({navigation}) {
           navigation.navigate('SuggestionsRegister')}>
         <Text>Ir Suggestions Register</Text>
       </TouchableOpacity>
+      <TouchableOpacity
+       onPress = { () =>
+        navigation.navigate('UserUpdate')}>
+         <Text>Ir User Update</Text>
+      </TouchableOpacity>
     </View>
   );
 };

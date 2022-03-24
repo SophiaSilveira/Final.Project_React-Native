@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import type {Node} from 'react';
 import {
@@ -33,7 +31,10 @@ import RecipeScreen from './src/pages/RecipeScreen';
 import SplashScreen from './src/pages/SplashScreen';
 import SuggestionsRegister from './src/pages/SuggestionsRegister';
 import SuggestionsScreen from './src/pages/SuggestionsScreen';
-
+import UserLogin from './src/pages/UserLogin';
+import UserOption from './src/pages/UserOption';
+import UserRegister from './src/pages/UserRegister';
+import UserUpdate from './src/pages/UserUpdate';
 
 const Stack = createNativeStackNavigator();
 
@@ -51,6 +52,10 @@ function App() {
         <Stack.Screen name="SplashScreen" component={SplashScreen} />
         <Stack.Screen name="SuggestionsRegister" component={SuggestionsRegister} />
         <Stack.Screen name="SuggestionsScreen" component={SuggestionsScreen} />
+        <Stack.Screen name="UserLogin" component={UserLogin} />
+        <Stack.Screen name="UserOption" component={UserOption} />
+        <Stack.Screen name="UserRegister" component={UserRegister} />
+        <Stack.Screen name="UserUpdate" component={UserUpdate} />
       </Stack.Navigator>
     </NavigationContainer>
   );

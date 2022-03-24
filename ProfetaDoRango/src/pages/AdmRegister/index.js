@@ -4,7 +4,6 @@ import {View,
         StyleSheet,
         TouchableOpacity} from 'react-native';
 
-
 function AdmRegister({navigation}) {
   return (
     <View style = {styles.container}>
