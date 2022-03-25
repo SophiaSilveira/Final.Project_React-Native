@@ -4,7 +4,6 @@ import {View,
         StyleSheet,
         TouchableOpacity} from 'react-native';
 
-
 function AdmHome({navigation}) {
   return (
     <View style = {styles.container}>
@@ -36,7 +35,6 @@ function AdmHome({navigation}) {
       </TouchableOpacity>
     </View>
   );
-
 };
 
 const styles = StyleSheet.create({
