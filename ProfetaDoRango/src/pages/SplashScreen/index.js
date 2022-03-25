@@ -13,6 +13,7 @@ function SplashScreen({navigation}) {
         onPress = { () =>
           navigation.navigate('UserOption')}>
            <Text>Ir UserOption</Text>
+           <Text>teste dois bla bla bla</Text>
       </TouchableOpacity>
     </View>
   );
