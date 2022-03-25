@@ -15,8 +15,8 @@ function AdmHome({navigation}) {
       </TouchableOpacity>
       <TouchableOpacity
         onPress = { () =>
-          navigation.navigate('AdmUpdate')}>
-        <Text>Ir AdmUpdate</Text>
+          navigation.navigate('AdmSeeAll')}>
+        <Text>Ir AdmSeeAll</Text>
       </TouchableOpacity>
       <TouchableOpacity
         onPress = { () =>

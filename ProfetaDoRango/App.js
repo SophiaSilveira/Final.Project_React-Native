@@ -8,15 +8,13 @@ import {
   View,
 } from 'react-native';
 
-
-
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import AdmHome from './src/pages/AdmHome';
 import AdmLogin from './src/pages/AdmLogin';
 import AdmRegister from './src/pages/AdmRegister';
-import AdmUpdate from './src/pages/AdmUpdate';
+import AdmSeeAll from './src/pages/AdmSeeAll';
 import Home from './src/pages/Home';
 import RecipeRegister from './src/pages/RecipeRegister';
 import RecipeScreen from './src/pages/RecipeScreen';
@@ -37,7 +35,7 @@ export default function App() {
         <Stack.Screen name="AdmHome" component={AdmHome} />
         <Stack.Screen name="AdmLogin" component={AdmLogin} />
         <Stack.Screen name="AdmRegister" component={AdmRegister} />
-        <Stack.Screen name="AdmUpdate" component={AdmUpdate} />
+        <Stack.Screen name="AdmSeeAll" component={AdmSeeAll} />
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="RecipeRegister" component={RecipeRegister} />
         <Stack.Screen name="RecipeScreen" component={RecipeScreen} />
