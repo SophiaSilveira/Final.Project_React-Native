@@ -15,26 +15,24 @@ import {openDatabase} from 'react-native-sqlite-storage';
 
 const db = openDatabase({name: 'app_db.db', createFromLocation: 1});
 
-
-
 const UserUpdate = ({navigation}) => {
- let [inputUserId, setInputUserId] = useState('');
+ let [inputUserName, setInputUserName] = useState('');
   let [userName, setUserName] = useState('');
-  let [userContact, setUserContact] = useState('');
-  let [userAddress, setUserAddress] = useState('');
+  let [userId, setUserId] = useState('');
+  let [userEmail, setUserEmail] = useState('');
 
-  let updateAllStates = (name, contact, address) => {
+  let updateAllStates = (name, id, email) => {
     setUserName(name);
-    setUserContact(contact);
-    setUserAddress(address);
+    setUserId(id);
+    setUserEmail(email);
   };
 
   let searchUser = () => {
-    console.log(inputUserId);
+    console.log(inputUserName);
     db.transaction((tx) => {
       tx.executeSql(
         'SELECT * FROM tbl_user where user_name = ?',
-        [inputUserId],
+        [inputUserName],
         (tx, results) => {
           var len = results.rows.length;
           if (len > 0) {
@@ -48,36 +46,37 @@ const UserUpdate = ({navigation}) => {
       );
     });
   };
-  let updateUser = () => {
-    console.log(inputUserId, userName, userContact, userAddress);
 
-    if (!inputUserId) {
-      alert('Please fill User id');
+  let updateUser = () => {
+    console.log(inputUserName, userName, userId, userEmail);
+
+    if (!inputUserName) {
+      alert('Preencha com o nome');
       return;
     }
     if (!userName) {
-      alert('Please fill name');
+      alert('Preencha com o nome');
       return;
     }
-    if (!userContact) {
-      alert('Please fill Contact Number');
+    if (!userId) {
+      alert('Somente caracteres numericos em ID');
       return;
     }
-    if (!userAddress) {
-      alert('Please fill Address');
+    if (!userEmail) {
+      alert('Preencha com o G-mail');
       return;
     }
 
     db.transaction((tx) => {
       tx.executeSql(
-        'UPDATE tbl_user set user_name=?, user_id=?, user_password=? where user_name=?',
-        [userName, userContact, userAddress, inputUserId],
+        'UPDATE tbl_user set user_name=?, user_id=?, user_email=? where user_name=?',
+        [userName, userId, userEmail, inputUserName],
         (tx, results) => {
           console.log('Results', results.rowsAffected);
           if (results.rowsAffected > 0) {
             Alert.alert(
-              'Success',
-              'User updated successfully',
+              'Sucesso!',
+              'Você atualizou seus dados.',
               [
                 {
                   text: 'Ok',
@@ -86,14 +85,14 @@ const UserUpdate = ({navigation}) => {
               ],
               {cancelable: false},
             );
-          } else alert('Updation Failed');
+          } else alert('Atualização falhou');
         },
       );
     });
   };
 
   return (
-    <SafeAreaView style={{flex: 1}}>
+    <SafeAreaView style={styles.container}>
       <View style={{flex: 1}}>
         <View style={{flex: 1}}>
           <ScrollView keyboardShouldPersistTaps="handled">
@@ -101,18 +100,18 @@ const UserUpdate = ({navigation}) => {
               behavior="padding"
               style={{flex: 1, justifyContent: 'space-between'}}>
               <Mytextinput
-                placeholder="Enter User Id"
+                placeholder="Nome do usuário"
                 style={{padding: 10}}
                 onChangeText={
-                  (inputUserId) => setInputUserId(inputUserId)
+                  (inputUserName) => setInputUserName(inputUserName)
                 }
               />
               <Mybutton
-                title="Search User"
+                title="Procurar usuário"
                 customClick={searchUser}
               />
               <Mytextinput
-                placeholder="Enter Name"
+                placeholder="Nome"
                 value={userName}
                 style={{padding: 10}}
                 onChangeText={
@@ -120,25 +119,24 @@ const UserUpdate = ({navigation}) => {
                 }
               />
               <Mytextinput
-                placeholder="Enter Contact No"
-                value={'' + userContact}
+                placeholder="Id"
+                value={'' + userId}
                 onChangeText={
-                  (userContact) => setUserContact(userContact)
+                  (userId) => setUserId(userId)
                 }
                 maxLength={10}
                 style={{padding: 10}}
                  keyboardType="numeric"
               />
               <Mytextinput
-                value={userAddress}
-                placeholder="Enter Address"
+                value={userEmail}
+                placeholder="G-mail"
                 onChangeText={
-                  (userAddress) => setUserAddress(userAddress)
+                  (userEmail) => setUserEmail(userEmail)
                 }
-
               />
               <Mybutton
-                title="Update User"
+                title="Atualizar informações"
                 customClick={updateUser}
               />
             </KeyboardAvoidingView>
@@ -149,14 +147,9 @@ const UserUpdate = ({navigation}) => {
   );
 };
 
-
-
-
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      alignItems: 'center',
-      justifyContent: 'center',
     },
   });
 

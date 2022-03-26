@@ -22,14 +22,14 @@ const AdmSeeAll = () => {
 
   let listViewItemSeparator = () => {
     return (
-      <View style={{height: 0.2, width: '100%', backgroundColor: '#808080'}} />
+      <View style={{height: 10, width: '100%', backgroundColor: '#000'}} />
     );
   };
 
   let listItemView = (item) => {
     return (
       <View
-        key={item.user_id}
+        key={item.adm_id}
         style={styles.list}>
         <Text>Id: {item.adm_id}</Text>
         <Text>Name: {item.adm_name}</Text>
@@ -40,9 +40,9 @@ const AdmSeeAll = () => {
   };
 
   return (
-    <SafeAreaView style={{flex: 1}}>
+    <SafeAreaView style={styles.container}>
       <View style={styles.container}>
-        <View>
+        <View style={styles.container}>
           <FlatList
             data={flatListItems}
             ItemSeparatorComponent={listViewItemSeparator}
