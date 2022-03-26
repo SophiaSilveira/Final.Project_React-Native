@@ -58,10 +58,9 @@ const AdmSeeAll = () => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: "#000",
     },
     list: {
-     backgroundColor: "pink",
+     flex:1,
     },
 });
 

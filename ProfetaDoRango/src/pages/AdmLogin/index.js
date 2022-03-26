@@ -38,7 +38,7 @@ const AdmLogin = ({navigation}) => {
           if (len > 0) {
             let res = results.rows.item(0);
             updateAllStates(res.adm_name, res.adm_password);
-            navigation.navigate('Home');
+            navigation.navigate('AdmHome');
           } else {
             alert('No user found');
             updateAllStates('', '', '');
