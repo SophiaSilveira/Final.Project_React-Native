@@ -52,27 +52,28 @@ const AdmLogin = ({navigation}) => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.container}>
+      <View style={styles.logo}></View>
         <View style={styles.container}>
           <ScrollView keyboardShouldPersistTaps="handled">
             <KeyboardAvoidingView
               behavior="padding"
               style={styles.keyboard}>
               <Mytextinput
-                placeholder="Enter Name"
+                placeholder="Coloque seu Nome Completo"
                 style={styles.padding}
                 onChangeText={
                   (inputUserName) => setInputUserName(inputUserName)
                 }
               />
               <Mytextinput
-                placeholder="Enter Password"
-                style={{padding: 10}}
+                placeholder="Coloque sua Senha"
+                style={styles.padding}
                 onChangeText={
                   (inputUserPassword) => setInputUserPassword(inputUserPassword)
                   }
                />
               <Mybutton
-                title="Search User"
+                title="Entrar"
                 customClick={searchUser}
               />
             </KeyboardAvoidingView>
@@ -91,6 +92,18 @@ const AdmLogin = ({navigation}) => {
 const styles = StyleSheet.create({
     container: {
       flex: 1,
+      backgroundColor: '#ff9939',
+      alignItems: 'center',
+    },
+
+    logo: {
+      flex: 1,
+      backgroundColor: '#fff',
+      width: 50,
+      borderRadius: 100,
+      marginTop: 20,
+      marginBottom: 0,
+
     },
 
     keyboard:{
@@ -100,6 +113,7 @@ const styles = StyleSheet.create({
 
     padding: {
       padding: 10,
+      fontSize: 20,
     },
 
 });
