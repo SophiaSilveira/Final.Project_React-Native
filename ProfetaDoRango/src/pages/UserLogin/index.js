@@ -80,9 +80,10 @@ const UserLogin = ({navigation}) => {
           </ScrollView>
         </View>
         <TouchableOpacity
+        style={styles.admLogin}
           onPress = { () =>
           navigation.navigate('AdmLogin')}>
-            <Text>Ir AdmLogin</Text>
+            <Text style={styles.admText}>Entrar como Administrador</Text>
         </TouchableOpacity>
       </View>
     </SafeAreaView>
@@ -97,16 +98,15 @@ const styles = StyleSheet.create({
     },
 
     logo: {
-      flex: 1,
       backgroundColor: '#fff',
-      width: 50,
+      width: 150,
+      height: 150,
       borderRadius: 100,
-      marginTop: 20,
-      marginBottom: 0,
-
+      marginTop: 40,
+      marginBottom: 40,
     },
 
-    keyboard:{
+    keyboard: {
       flex: 1,
       justifyContent: 'space-between',
     },
@@ -115,6 +115,15 @@ const styles = StyleSheet.create({
       padding: 10,
       fontSize: 20,
     },
+
+    admLogin: {
+      marginRight: 310,
+    },
+
+    admText: {
+      fontSize: 14,
+      color: '#fff'
+    }
 
 });
 
