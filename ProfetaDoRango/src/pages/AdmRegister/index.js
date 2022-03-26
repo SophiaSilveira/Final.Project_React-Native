@@ -15,36 +15,36 @@ import {openDatabase} from 'react-native-sqlite-storage';
 const db = openDatabase({name: 'app_db.db', createFromLocation: 1});
 
 const  AdmRegister = ({navigation}) => {
-  let [userName, setUserName] = useState('');
-  let [userContact, setUserContact] = useState('');
-  let [userAddress, setUserAddress] = useState('');
+  let [admName, setAdmName] = useState('');
+  let [admPassword, setAdmPassword] = useState('');
+  let [admEmail, setAdmEmail] = useState('');
 
   let register_adm = () => {
-    console.log(userName, userContact, userAddress);
+    console.log(admName, admPassword, admEmail);
 
-    if (!userName) {
-      alert('Please fill name');
+    if (!admName) {
+      alert('Insira Nome');
       return;
     }
-    if (!userContact) {
-      alert('Please fill Contact Number');
+    if (!admPassword) {
+      alert('Insira Senha');
       return;
     }
-    if (!userAddress) {
-      alert('Please fill Address');
+    if (!admEmail) {
+      alert('Insira G-mail');
       return;
     }
 
     db.transaction(function (tx) {
       tx.executeSql(
         'INSERT INTO tbl_adm (adm_name, adm_password, ad_email) VALUES (?,?,?)',
-        [userName, userContact, userAddress],
+        [admName, admPassword, admEmail],
         (tx, results) => {
           console.log('Results', results.rowsAffected);
           if (results.rowsAffected > 0) {
             Alert.alert(
-              'Success',
-              'You are Registered Successfully',
+              'Sucesso!',
+              'Você registrou um Adm.',
               [
                 {
                   text: 'Ok',
@@ -53,14 +53,14 @@ const  AdmRegister = ({navigation}) => {
               ],
               {cancelable: false},
             );
-          } else alert('Registration Failed');
+          } else alert('Registro falhou');
         },
       );
     });
   };
 
   return (
-    <SafeAreaView style={{flex: 1}}>
+    <SafeAreaView style={styles.container}>
       <View style={{flex: 1, backgroundColor: 'white'}}>
         <View style={{flex: 1}}>
           <ScrollView keyboardShouldPersistTaps="handled">
@@ -68,34 +68,39 @@ const  AdmRegister = ({navigation}) => {
               behavior="padding"
               style={{flex: 1, justifyContent: 'space-between'}}>
               <Mytextinput
-                placeholder="Enter Name"
+                placeholder="Nome"
                 onChangeText={
-                  (userName) => setUserName(userName)
+                  (admName) => setAdmName(admName)
                 }
                 style={{padding: 10}}
               />
               <Mytextinput
-                placeholder="Enter Contact No"
+                placeholder="Senha"
                 onChangeText={
-                  (userContact) => setUserContact(userContact)
+                  (admPassword) => setAdmPassword(admPassword)
                 }
                 maxLength={10}
                 style={{padding: 10}}
               />
               <Mytextinput
-                placeholder="Enter Address"
+                placeholder="G-mail"
                 onChangeText={
-                  (userAddress) => setUserAddress(userAddress)
+                  (admEmail) => setAdmEmail(admEmail)
                 }
               />
-              <Mybutton title="Submit" customClick={register_adm} />
+              <Mybutton title="Registrar" customClick={register_adm} />
             </KeyboardAvoidingView>
           </ScrollView>
         </View>
       </View>
     </SafeAreaView>
   );
-
 };
+
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+    },
+ });
 
 export default AdmRegister;
