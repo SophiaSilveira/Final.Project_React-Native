@@ -16,7 +16,7 @@ import {openDatabase} from 'react-native-sqlite-storage';
 
 const db = openDatabase({name: 'app_db.db', createFromLocation: 1});
 
-const AdmLogin = ({navigation}) => {
+const UserLogin = ({navigation}) => {
   let [inputUserName, setInputUserName] = useState('');
   let [inputUserPassword, setInputUserPassword] = useState('');
   let [userName, setUserName] = useState('');
@@ -104,4 +104,4 @@ const styles = StyleSheet.create({
 
 });
 
-export default AdmLogin;
+export default UserLogin;
