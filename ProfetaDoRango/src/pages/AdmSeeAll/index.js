@@ -22,7 +22,7 @@ const AdmSeeAll = () => {
 
   let listViewItemSeparator = () => {
     return (
-      <View style={{height: 10, width: '100%', backgroundColor: '#000'}} />
+      <View style={styles.line}/>
     );
   };
 
@@ -31,10 +31,10 @@ const AdmSeeAll = () => {
       <View
         key={item.adm_id}
         style={styles.list}>
-        <Text>Id: {item.adm_id}</Text>
-        <Text>Name: {item.adm_name}</Text>
-        <Text>Senha: {item.adm_password}</Text>
-        <Text>e-mail: {item.ad_email}</Text>
+        <Text style={styles.text}>Id: {item.adm_id}</Text>
+        <Text style={styles.text}>Name: {item.adm_name}</Text>
+        <Text style={styles.text}>Senha: {item.adm_password}</Text>
+        <Text style={styles.text}>E-mail: {item.ad_email}</Text>
       </View>
     );
   };
@@ -57,10 +57,28 @@ const AdmSeeAll = () => {
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
+      flex: 1,
+      backgroundColor: '#ff9939',
     },
+
+    line: {
+      height: 5,
+      width: '100%',
+      backgroundColor: '#ccc',
+      marginBottom: 0,
+      marginTop: 0,
+    },
+
     list: {
-     flex:1,
+      flex:1,
+      padding: 15,
+      backgroundColor: '#efefef',
+    },
+
+    text: {
+      color: '#585858',
+      fontSize: 17,
+      padding: 6,
     },
 });
 
