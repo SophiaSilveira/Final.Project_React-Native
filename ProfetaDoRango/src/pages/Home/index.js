@@ -12,8 +12,33 @@ function Home({navigation}) {
       <Text>Home</Text>
       <TouchableOpacity
         onPress = { () =>
-          navigation.navigate('RecipeScreen')}>
-           <Text>Ir Recipe Screen</Text>
+          navigation.navigate('Childish')}>
+           <Text>Ir Childish</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        onPress = { () =>
+          navigation.navigate('Drinks')}>
+            <Text>Ir Drinks</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        onPress = { () =>
+          navigation.navigate('Snacks')}>
+            <Text>Ir Snacks</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        onPress = { () =>
+          navigation.navigate('BatidaAlcoolica')}>
+          <Text>Ir Batida Alcoólica</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+         onPress = { () =>
+         navigation.navigate('Panquecas')}>
+         <Text>Ir Panquecas</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        onPress = { () =>
+          navigation.navigate('Pizza')}>
+          <Text>Ir Pizza</Text>
       </TouchableOpacity>
       <TouchableOpacity
         onPress = { () =>
