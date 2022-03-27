@@ -101,7 +101,7 @@ const UserUpdate = ({navigation}) => {
               style={{flex: 1, justifyContent: 'space-between'}}>
               <Mytextinput
                 placeholder="Nome do usuário"
-                style={{padding: 10}}
+                style={styles.fontSize}
                 onChangeText={
                   (inputUserName) => setInputUserName(inputUserName)
                 }
@@ -111,26 +111,27 @@ const UserUpdate = ({navigation}) => {
                 customClick={searchUser}
               />
               <Mytextinput
-                placeholder="Nome"
+                placeholder="Nome Completo"
                 value={userName}
-                style={{padding: 10}}
+                style={styles.fontSize}
                 onChangeText={
                   (userName) => setUserName(userName)
                 }
               />
               <Mytextinput
-                placeholder="Id"
+                placeholder="ID"
                 value={'' + userId}
+                style={styles.fontSize}
                 onChangeText={
                   (userId) => setUserId(userId)
                 }
                 maxLength={10}
-                style={{padding: 10}}
                  keyboardType="numeric"
               />
               <Mytextinput
                 value={userEmail}
-                placeholder="G-mail"
+                placeholder="E-mail"
+                style={styles.fontSize}
                 onChangeText={
                   (userEmail) => setUserEmail(userEmail)
                 }
@@ -150,7 +151,13 @@ const UserUpdate = ({navigation}) => {
 const styles = StyleSheet.create({
     container: {
       flex: 1,
+      backgroundColor: '#ff9939',
     },
+
+    fontSize: {
+      fontSize: 20,
+      padding: 10,
+    }
   });
 
 export default UserUpdate;

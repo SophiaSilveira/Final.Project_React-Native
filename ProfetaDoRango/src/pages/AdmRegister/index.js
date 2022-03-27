@@ -61,29 +61,31 @@ const  AdmRegister = ({navigation}) => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <View style={{flex: 1, backgroundColor: 'white'}}>
+      <View style={styles.container}>
+        <View style={styles.logo}></View>
         <View style={{flex: 1}}>
           <ScrollView keyboardShouldPersistTaps="handled">
             <KeyboardAvoidingView
               behavior="padding"
               style={{flex: 1, justifyContent: 'space-between'}}>
               <Mytextinput
-                placeholder="Nome"
+                placeholder="Digite seu Nome Completo"
                 onChangeText={
                   (admName) => setAdmName(admName)
                 }
-                style={{padding: 10}}
+                style={styles.padding}
               />
               <Mytextinput
-                placeholder="Senha"
+                placeholder="Digite sua Senha"
                 onChangeText={
                   (admPassword) => setAdmPassword(admPassword)
                 }
                 maxLength={10}
-                style={{padding: 10}}
+                style={styles.padding}
               />
               <Mytextinput
-                placeholder="G-mail"
+                placeholder="Digite seu E-mail"
+                style={styles.padding}
                 onChangeText={
                   (admEmail) => setAdmEmail(admEmail)
                 }
@@ -100,6 +102,22 @@ const  AdmRegister = ({navigation}) => {
 const styles = StyleSheet.create({
     container: {
       flex: 1,
+      alignItems: 'center',
+      backgroundColor: '#ff9939',
+    },
+
+    logo: {
+      backgroundColor: '#fff',
+      width: 150,
+      height: 150,
+      borderRadius: 100,
+      marginTop: 40,
+      marginBottom: 20,
+    },
+
+    padding: {
+      padding: 10,
+      fontSize: 20,
     },
  });
 

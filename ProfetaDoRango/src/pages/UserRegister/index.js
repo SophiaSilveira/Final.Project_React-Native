@@ -61,29 +61,30 @@ const  UserRegister = ({navigation}) => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <View style={{flex: 1, backgroundColor: 'white'}}>
+      <View style={{flex: 1, backgroundColor: '#ff9939', alignItems: 'center'}}>
+      <View style={styles.logo}></View>
         <View style={{flex: 1}}>
           <ScrollView keyboardShouldPersistTaps="handled">
             <KeyboardAvoidingView
               behavior="padding"
               style={{flex: 1, justifyContent: 'space-between'}}>
               <Mytextinput
-                placeholder="Nome"
+                placeholder="Digite seu Nome Completo"
+                style={styles.padding}
                 onChangeText={
                   (userName) => setUserName(userName)
                 }
-                style={{padding: 10}}
               />
               <Mytextinput
-                placeholder="Senha"
+                placeholder="Digite sua Senha"
+                style={styles.padding}
                 onChangeText={
                   (userPassword) => setUserPassword(userPassword)
                 }
-                maxLength={10}
-                style={{padding: 10}}
               />
               <Mytextinput
-                placeholder="G-mail"
+                placeholder="Digite seu E-mail"
+                style={styles.padding}
                 onChangeText={
                   (userEmail) => setUserEmail(userEmail)
                 }
@@ -100,6 +101,20 @@ const  UserRegister = ({navigation}) => {
 const styles = StyleSheet.create({
     container: {
       flex: 1,
+    },
+
+    logo: {
+      backgroundColor: '#fff',
+      width: 150,
+      height: 150,
+      borderRadius: 100,
+      marginTop: 40,
+      marginBottom: 20,
+    },
+
+    padding: {
+      padding: 10,
+      fontSize: 20,
     },
  });
 
