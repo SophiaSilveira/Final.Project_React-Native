@@ -7,7 +7,8 @@ import {
   SafeAreaView,
   Text,
   StyleSheet,
-  TouchableOpacity
+  TouchableOpacity,
+  Image
 } from 'react-native';
 
 import Mytextinput from '../../components/Mytextinput';
@@ -52,7 +53,11 @@ const AdmLogin = ({navigation}) => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.container}>
-      <View style={styles.logo}></View>
+      <View>
+        <Image
+            source={require('../../img/Logo.png')}
+            style={styles.img} />
+      </View>
         <View style={styles.container}>
           <ScrollView keyboardShouldPersistTaps="handled">
             <KeyboardAvoidingView
@@ -91,13 +96,9 @@ const styles = StyleSheet.create({
       alignItems: 'center'
     },
 
-    logo: {
-      backgroundColor: '#fff',
-      width: 150,
-      height: 150,
-      borderRadius: 100,
-      marginTop: 40,
-      marginBottom: 40,
+    img: {
+      width: 200,
+      height: 240,
     },
 
     keyboard:{

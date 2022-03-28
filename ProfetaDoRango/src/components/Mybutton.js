@@ -22,7 +22,8 @@ const styles = StyleSheet.create({
     marginTop: 50,
     marginLeft: 60,
     marginRight: 60,
-    borderRadius: 15
+    borderRadius: 15,
+    marginBottom: 10,
   },
   text: {
     color: '#585858',

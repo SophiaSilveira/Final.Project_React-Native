@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     line: {
       height: 5,
       width: '100%',
-      backgroundColor: '#ccc',
+      backgroundColor: '#ff9939',
       marginBottom: 0,
       marginTop: 0,
     },
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
 
     text: {
       color: '#585858',
-      fontSize: 17,
+      fontSize: 18,
       padding: 6,
     },
 });

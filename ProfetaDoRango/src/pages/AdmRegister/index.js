@@ -7,6 +7,7 @@ import {
   SafeAreaView,
   Text,
   StyleSheet,
+  Image
 } from 'react-native';
 import Mytextinput from '../../components/Mytextinput';
 import Mybutton from './../../components/Mybutton';
@@ -62,7 +63,11 @@ const  AdmRegister = ({navigation}) => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.container}>
-        <View style={styles.logo}></View>
+      <View>
+        <Image
+            source={require('../../img/Logo.png')}
+            style={styles.img} />
+      </View>
         <View style={{flex: 1}}>
           <ScrollView keyboardShouldPersistTaps="handled">
             <KeyboardAvoidingView
@@ -106,13 +111,9 @@ const styles = StyleSheet.create({
       backgroundColor: '#ff9939',
     },
 
-    logo: {
-      backgroundColor: '#fff',
-      width: 150,
-      height: 150,
-      borderRadius: 100,
-      marginTop: 40,
-      marginBottom: 20,
+    img: {
+      width: 200,
+      height: 240,
     },
 
     padding: {

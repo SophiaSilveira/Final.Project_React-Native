@@ -22,7 +22,7 @@ const SuggestionsScreen = () => {
 
   let listViewItemSeparator = () => {
     return (
-      <View style={{height: 10, width: '100%', backgroundColor: '#808080'}} />
+      <View style={{height: 15, width: '100%', backgroundColor: '#ff9939'}} />
     );
   };
 
@@ -31,16 +31,16 @@ const SuggestionsScreen = () => {
       <View
         key={item.s_id}
         style={styles.list}>
-        <Text>Id Sugestão: {item.s_id}</Text>
-        <Text>Nome: {item.s_name}</Text>
-        <Text>Tipo: {item.s_type}</Text>
-        <Text>Sabor: {item.s_flavor}</Text>
-        <Text>Igredientes:</Text>
-        <Text>{item.s_ingredients}</Text>
-        <Text>Modo de Preparo:</Text>
-        <Text>{item.s_cook}</Text>
-        <Text>{item.s_tips}</Text>
-        <Text>Id usuário que enviou a sugestão: {item.user_id}</Text>
+        <Text style={styles.text}>Id Sugestão: {item.s_id}</Text>
+        <Text style={styles.text}>Nome: {item.s_name}</Text>
+        <Text style={styles.text}>Tipo: {item.s_type}</Text>
+        <Text style={styles.text}>Sabor: {item.s_flavor}</Text>
+        <Text style={styles.text}>Ingredientes:</Text>
+        <Text style={styles.text}>{item.s_ingredients}</Text>
+        <Text style={styles.text}>Modo de Preparo:</Text>
+        <Text style={styles.text}>{item.s_cook}</Text>
+        <Text style={styles.text}>{item.s_tips}</Text>
+        <Text style={styles.text}>Id usuário que enviou a sugestão: {item.user_id}</Text>
       </View>
     );
   };
@@ -63,11 +63,21 @@ const SuggestionsScreen = () => {
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
-        backgroundColor: "#000",
+      flex: 1,
+      width: '100%',
+      backgroundColor: "#ff9939",
     },
     list: {
-     backgroundColor: "pink",
+      backgroundColor: "#fff",
+    },
+
+    text: {
+      flex: 1,
+      textAlign: 'center',
+      padding: 10,
+      fontSize: 16,
+      lineHeight: 20,
+      color: '#000'
     },
 });
 

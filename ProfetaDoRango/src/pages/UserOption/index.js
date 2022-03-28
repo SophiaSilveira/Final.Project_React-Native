@@ -3,14 +3,19 @@ import {View,
         Text,
         StyleSheet,
         TouchableOpacity,
-        StatusBar} from 'react-native';
+        StatusBar,
+        Image} from 'react-native';
 
 
 function UserOption({navigation}) {
   return (
     <View style = {styles.container}>
     <StatusBar hidden />
-      <View style={styles.logo}></View>
+      <View>
+        <Image source={require('../../img/Logo.png')}
+        style={styles.img} />
+      </View>
+      <Text style={styles.tittle}> O PROFETA DO RANGO </Text>
       <Text style={styles.presentation}>O Profeta do Rango é o aplicativo culinário para você, indeciso ou não, chefe de cozinha iniciante ou profissional a decidir seu prato(rango) do dia ou simplesmente aprender a cozinhar aquele prato pro seu/sua crush ou pra matar aquela vontade. De um jeito simples.</Text>
       <TouchableOpacity
       style = {styles.buttonOne}
@@ -37,13 +42,17 @@ const styles = StyleSheet.create({
       backgroundColor: '#ff9939',
     },
 
-    logo: {
-      marginBottom: 50,
-      backgroundColor: '#fff',
-      width: 190,
-      height: 190,
-      borderRadius: 100,
-      paddingRight: 7,
+    img: {
+      width: 200,
+      height: 240,
+      marginBottom: 20,
+    },
+
+    tittle: {
+      fontSize: 20,
+      color: '#fff',
+      fontWeight: 'bold',
+      marginBottom: 10,
     },
 
     presentation: {
@@ -56,8 +65,8 @@ const styles = StyleSheet.create({
     },
 
     buttonOne: {
-      marginTop: 40,
-      marginBottom: 30,
+      marginTop: 30,
+      marginBottom: 20,
       backgroundColor: '#fff',
       padding: 20,
       width: 300,

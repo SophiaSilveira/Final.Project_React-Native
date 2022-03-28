@@ -8,6 +8,7 @@ import {
   Text,
   StyleSheet,
   TouchableOpacity,
+  Image
 } from 'react-native';
 import Mytextinput from '../../components/Mytextinput';
 import Mybutton from './../../components/Mybutton';
@@ -83,7 +84,11 @@ const RecipeRegister = ({navigation}) => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.container}>
-        <View style={styles.logo}></View>
+       <View>
+        <Image
+           source={require('../../img/Logo.png')}
+           style={styles.img} />
+       </View>
         <View style={{flex: 1}}>
           <ScrollView keyboardShouldPersistTaps="handled">
             <KeyboardAvoidingView
@@ -151,7 +156,7 @@ const RecipeRegister = ({navigation}) => {
               <TouchableOpacity
                 onPress = { () =>
                   navigation.navigate('AdmSeeAll')}>
-                    <Text>Clique aqui para saber seu Id</Text>
+                    <Text style={styles.text}>Clique aqui para saber seu Id</Text>
               </TouchableOpacity>
               <Mybutton title="Registrar" customClick={register_recipe} />
             </KeyboardAvoidingView>
@@ -169,19 +174,24 @@ const styles = StyleSheet.create({
       backgroundColor: '#ff9939',
     },
 
-    logo: {
-      backgroundColor: '#fff',
-      width: 150,
-      height: 150,
-      borderRadius: 100,
-      marginTop: 40,
-      marginBottom: 20,
+    img: {
+      width: 200,
+      height: 240,
     },
 
     padding: {
       padding: 10,
       fontSize: 20,
     },
+
+    text: {
+      color: '#fff',
+      fontSize: 15,
+      textAlign: 'center',
+      marginTop: 10,
+      marginBottom: -150,
+    },
+
  });
 
 export default RecipeRegister;
