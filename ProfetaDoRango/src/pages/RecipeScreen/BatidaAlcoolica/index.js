@@ -36,6 +36,11 @@ const BatidaAlcoolica = () => {
         <Text>Modo de Preparo:</Text>
         <Text>{item.r_cook}</Text>
         <Text>{item.r_tips}</Text>
+        <TouchableOpacity
+          onPress = { () =>
+            navigation.navigate('Home')}>
+          <Text>Ir Home</Text>
+        </TouchableOpacity>
       </View>
     );
   };

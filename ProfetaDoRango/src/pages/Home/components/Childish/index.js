@@ -13,6 +13,11 @@ function Childish({navigation}) {
           navigation.navigate('Panquecas')}>
           <Text>Ir Panquecas</Text>
       </TouchableOpacity>
+      <TouchableOpacity
+        onPress = { () =>
+          navigation.navigate('Home')}>
+        <Text>Ir Home</Text>
+        </TouchableOpacity>
     </View>
   );
 };

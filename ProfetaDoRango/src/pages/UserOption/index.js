@@ -1,22 +1,56 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import {View,
         Text,
         StyleSheet,
         TouchableOpacity,
         StatusBar,
-        Image} from 'react-native';
-
+        Image,
+        Animated,
+        LogBox} from 'react-native';
 
 function UserOption({navigation}) {
+  const [largura,setLargura] =useState(new Animated.Value (1080));
+  const [altura,setAltura] =useState(new Animated.Value (1920));
+
+  useEffect(() => {
+    LogBox.ignoreLogs(['Animated: `useNativeDriver`']);
+  }, [])
+
+  Animated.sequence([
+    Animated.timing(
+      largura,
+      {
+        toValue: 0,
+        duration: 2000
+      }
+    ),
+    Animated.timing(
+      altura,
+      {
+        toValue: 0,
+        duration: 1500
+      }
+    )
+  ]).start();
+
   return (
     <View style = {styles.container}>
     <StatusBar hidden />
+      <Animated.View
+        style ={{
+          width: largura,
+          height: altura,
+          backgroundColor: '#FAB36D'}}/>
       <View>
         <Image source={require('../../img/Logo.png')}
         style={styles.img} />
       </View>
       <Text style={styles.tittle}> O PROFETA DO RANGO </Text>
-      <Text style={styles.presentation}>O Profeta do Rango é o aplicativo culinário para você, indeciso ou não, chefe de cozinha iniciante ou profissional a decidir seu prato(rango) do dia ou simplesmente aprender a cozinhar aquele prato pro seu/sua crush ou pra matar aquela vontade. De um jeito simples.</Text>
+      <Text style={styles.presentation}>O Profeta do Rango é o aplicativo culinário para você,
+                                        indeciso ou não, chefe de cozinha iniciante ou
+                                        profissional a decidir seu prato(rango) do dia ou
+                                        simplesmente aprender a cozinhar aquele prato pro
+                                        seu/sua crush ou pra matar aquela vontade. </Text>
       <TouchableOpacity
       style = {styles.buttonOne}
        onPress = { () =>
@@ -57,11 +91,11 @@ const styles = StyleSheet.create({
 
     presentation: {
       color: '#fff',
-      fontSize: 16,
+      fontSize: 18,
       justifyContent: 'space-around',
       width: 400,
       textAlign: 'center',
-      fontWeight: 'bold'
+      fontWeight: 'bold',
     },
 
     buttonOne: {

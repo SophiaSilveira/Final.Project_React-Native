@@ -13,6 +13,11 @@ function Snacks({navigation}) {
           navigation.navigate('Pizza')}>
           <Text>Ir Pizza</Text>
       </TouchableOpacity>
+      <TouchableOpacity
+        onPress = { () =>
+          navigation.navigate('Home')}>
+        <Text>Ir Home</Text>
+        </TouchableOpacity>
     </View>
   );
 };
