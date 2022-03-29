@@ -72,7 +72,9 @@ A repository for the AppI module.
 
 Tela do SplashScreen:
 
-![Tela de inicio do app](https://user-images.githubusercontent.com/89792528/159138277-2856fc74-782e-4794-9809-b0a8fe3bb17c.png = 100x100)
+<img src="https://user-images.githubusercontent.com/89792528/159138277-2856fc74-782e-4794-9809-b0a8fe3bb17c.png" width="200" height="400" />
+
+![Tela de inicio do app](https://user-images.githubusercontent.com/89792528/159138277-2856fc74-782e-4794-9809-b0a8fe3bb17c.png)
 
 
 Tela do Login:
