@@ -45,6 +45,8 @@ A repository for the AppI module.
   e de o comando 1 novamente.
 
 
+<h3> Caso a instalação dos pré-requisitos seja feita corretamente, o projeto deve rodar do seguinte modo: https://drive.google.com/drive/folders/1B4vfTFC5jZNEozLFeibOe1NE8WfkqStX?usp=sharing </h3>
+
 <h3>Linha de Trabalho: Utilizamos a própria Main, para a atualização dos arquivos; </h3>
 
 
@@ -118,7 +120,7 @@ Tela da receita escolhida:
 <h3> 21/03/2022: Criação do banco de Dados e inicio dos testes para as funções que seriam utilizadas como: registro, login, delete de login entre outros. </h3>
 
 
-<h3> 25 há 30/03/2022: Integração das funcionalidades testadas com o exigido e estilização das telas. </h3>
+<h3> 25 há 29/03/2022: Integração das funcionalidades testadas com o exigido e estilização das telas. </h3>
 
 Tela inicial:
  
