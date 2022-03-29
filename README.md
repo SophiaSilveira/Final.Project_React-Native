@@ -1,12 +1,13 @@
 # Final.Project_React-Native
 A repository for the AppI module.
 
-<h1> Autores: Sophia Mendes da Silveira && João Pedro Bertoletti.
-     Git João: https://github.com/JPedroSB </h1>
+<h2> Autores: Sophia Mendes da Silveira && João Pedro Bertoletti.
+     Git João: https://github.com/JPedroSB </h2>
 
-<h2> Temática- </h2> Auxiliar culinário: Aplicativo culinário para você, indeciso ou não, chefe de cozinha iniciante ou profissional a decidir seu prato(rango) do dia ou    simplesmente aprender a cozinhar aquele prato pro seu/sua crush ou pra matar aquela vontade.
+<h3> Temática- </h3> Auxiliar culinário: Aplicativo culinário para você, indeciso ou não, chefe de cozinha iniciante ou profissional a decidir seu prato(rango) do dia ou    simplesmente aprender a cozinhar aquele prato pro seu/sua crush ou pra matar aquela vontade.
 
- Pré-requisitos e tecnologias utilizadas:
+
+<h3> Pré-requisitos e tecnologias utilizadas: </h3>
  
 1. NPM ou yarn- instalado;
 2. Node;
@@ -17,13 +18,13 @@ A repository for the AppI module.
 7. Dar init no projeto react-native.
 
 
-Um pouco sobre a variável de ambiente: Neste trabalho foi utilizada a IDE Android Studio, que é um ambiente de desenvolvimento integrado para desenvolver para a plataforma Android. Para isto foram necessárias certas configurações, como a instalação do Node e o init no projeto, passos que você pode encontrar em: https://reactnative.dev/docs/environment-setup
+<h3> Um pouco sobre a variável de ambiente: </h3> Neste trabalho foi utilizada a IDE Android Studio, que é um ambiente de desenvolvimento integrado para desenvolver para a plataforma Android. Para isto foram necessárias certas configurações, como a instalação do Node e o init no projeto, passos que você pode encontrar em: https://reactnative.dev/docs/environment-setup
 
 
-Neste trabalho será utilizamos o React-native, que é uma biblioteca Javascript criada pelo Facebook. Para mais informações, tutoriais de instalação dos requisitos, e exemplos funcionais, acesse: https://reactnative.dev/docs/getting-started
+<h2> Neste trabalho será utilizamos o React-native, que é uma biblioteca Javascript criada pelo Facebook. Para mais informações, tutoriais de instalação dos requisitos, e exemplos funcionais, acesse: https://reactnative.dev/docs/getting-started </h2>
 
 
-Comandos para utilizar o App:
+<h3> Comandos para utilizar o App: </h3>
 
  1. Após clonar o repositório e iniciar seu emulador, vá ao prompt de comando ou terminal do Android Studio, entre dentro da pasta do projeto (o caminho será parecido com ' C:\APPIAndroid\ProjFinal\Final.Project_React-Native\ProfetaDoRango' e dê:
        
@@ -44,10 +45,10 @@ Comandos para utilizar o App:
   e de o comando 1 novamente.
 
 
-Linha de Trabalho:
- Utilizamos a própria Main, para a atualização dos arquivos;
+<h3>Linha de Trabalho: Utilizamos a própria Main, para a atualização dos arquivos; </h3>
 
-Palheta de cores:
+
+<h3> Palheta de cores: </h3>
  ff9939;
 
  #ffffff; #efefef; #fdeca6; #585858; #111; #bebebe; #ffb875; #000; #c1c1c1; #ffdcbb; #ffaa5a;
@@ -56,17 +57,17 @@ Palheta de cores:
 
 
 
--14/03/2022: Base Wireframe sem SplashScreen:
+<h3>14/03/2022: Base Wireframe sem SplashScreen:
 
 ![image](https://user-images.githubusercontent.com/89554510/158917524-2c45a0ef-3443-4905-8e35-8adaaf2ad21d.png)
+</h3>
 
-
--15/03/2022: Observação da experiência de usuário-UX:
+<h3>15/03/2022: Observação da experiência de usuário-UX:
 
 ![image](https://user-images.githubusercontent.com/89554510/159123372-991f9ce1-df84-4ec9-9ea1-adcd208936bd.png)
+</h3>
 
-
-16/03/2022: Atualização do Wireframe:
+<h3>16/03/2022: Atualização do Wireframe: </h3>
 
 
 Tela do SplashScreen:
@@ -92,7 +93,7 @@ Tela da receita escolhida:
 
 
 
-17/03/2022: Separação MVN:
+<h3> 17/03/2022: Separação MVN:
 
 ![image](https://user-images.githubusercontent.com/89554510/160684755-514790b6-bd3a-4a4d-ad0e-a6feb644baa0.png)
 
@@ -101,7 +102,7 @@ Tela da receita escolhida:
 ![image](https://user-images.githubusercontent.com/89554510/160684966-6ed9675f-848e-4526-97b6-b4af9722d2fe.png)
 
 
-19 e 20/03/2022: Escolha do banco de dados Sqlite.
+19 e 20/03/2022: Escolha do banco de dados Sqlite. </h3>
  *Conforme modelo disposto na documentação: https://aboutreact.com/example-of-sqlite-database-in-react-native/
 
  1- *Nome: Profeta do Rango.
@@ -113,10 +114,10 @@ Tela da receita escolhida:
  3- Init no Projeto.
 
 
-21/03/2022: Criação do banco de Dados e inicio dos testes para as funções que seriam utilizadas como: registro, login, delete de login entre outros.
+<h3> 21/03/2022: Criação do banco de Dados e inicio dos testes para as funções que seriam utilizadas como: registro, login, delete de login entre outros. </h3>
 
 
-25 há 30/03/2022: Integração das funcionalidades testadas com o exigido e estilização das telas.
+<h3> 25 há 30/03/2022: Integração das funcionalidades testadas com o exigido e estilização das telas. </h3>
 
 Tela inicial:
 
@@ -219,6 +220,6 @@ parte2-
 
 
 
-Aqui chegamos ao fim do APP! Esperamos que tenha lhe sido útil.
+<h2>Aqui chegamos ao fim do APP! Esperamos que tenha lhe sido útil.</h2>
 
-Licença: Utilizamos a licença MIT.
+<h3>Licença: Utilizamos a licença MIT.</h3>
