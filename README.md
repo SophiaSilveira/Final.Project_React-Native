@@ -101,7 +101,7 @@ Tela da receita escolhida:
 -Dentro dos diretórios das Telas encontram-se os arquivos index.js.
  
  <img src="https://user-images.githubusercontent.com/89554510/160684966-6ed9675f-848e-4526-97b6-b4af9722d2fe.png" width="350" height="550" />
-
+</h3>
 
 19 e 20/03/2022: Escolha do banco de dados Sqlite. </h3>
  *Conforme modelo disposto na documentação: https://aboutreact.com/example-of-sqlite-database-in-react-native/
@@ -121,8 +121,6 @@ Tela da receita escolhida:
 <h3> 25 há 30/03/2022: Integração das funcionalidades testadas com o exigido e estilização das telas. </h3>
 
 Tela inicial:
-
- <img src="https://user-images.githubusercontent.com/89554510/160685225-5519ce3a-b2a7-45a7-85f4-2e00ee3b8cff.png" width="400" height="600" />
  
   ![image](https://user-images.githubusercontent.com/89554510/160685225-5519ce3a-b2a7-45a7-85f4-2e00ee3b8cff.png)
 
