@@ -25,6 +25,35 @@ Um pouco sobre a variável de ambiente:
 Linha de Trabalho:
 Utilizamos a própria Main, para a atualização dos arquivos;
 
+Palheta de cores:
+ff9939;
+
+#ffffff;
+
+#efefef;
+
+#fdeca6;
+
+#585858;
+
+#111;
+
+#bebebe;
+
+#ffb875;
+
+#000;
+
+#c1c1c1;
+
+#ffdcbb;
+
+#ffaa5a;
+
+
+![palheta de cores](https://user-images.githubusercontent.com/89792528/160531225-b76be5c5-a01b-4d91-a999-6fb17ee5c170.png)
+
+
 
 -14/03/2022: Base Wireframe sem SplashScreen:
 
