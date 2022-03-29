@@ -187,6 +187,7 @@ parte2-
 
 
 Tela Viazualizar Sugestões;
+
 pate1- 
 
   ![image](https://user-images.githubusercontent.com/89554510/160688230-6ee8d77b-8742-44e7-adc8-ebb53f8465e7.png)
