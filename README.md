@@ -2,8 +2,21 @@
 A repository for the AppI module.
 
 Autores: Sophia Mendes da Silveira && João Pedro Bertoletti.
+Git João: https://github.com/JPedroSB
 
 Temática- Auxiliar culinário: Aplicativo culinário para você, indeciso ou não, chefe de cozinha iniciante ou profissional a decidir seu prato(rango) do dia ou simplesmente aprender a cozinhar aquele prato pro seu/sua crush ou pra matar aquela vontade.
+
+Pré-requisitos e tecnologias utilizadas:
+1. NPM ou yarn- instalado;
+2. Node;
+3. SDK Android Studio;
+4. Emulador(pode ser do próprio Android studio;
+5. Git- Repositórios;
+6. Clonar o repositório git;
+7. Dar init no projeto react-native.
+
+Linha de Trabalho:
+Utilizamos a própria Main, para a atualização dos arquivos;
 
 
 -14/03/2022: Base Wireframe sem SplashScreen:
@@ -42,21 +55,25 @@ Tela da receita escolhida:
 
 19/03/2022: Escolha do banco de dados Sqlite.
 
-Foi escolhido o banco de dados Sqlite e foi iniciado os testes de registro, login, delete de login entre outros.
-Todos os testes foram um sucesso e funcionaram corretamente.
-
-
 20/03/2022: 1- Escolha do nome e Slogan.
-
  *Nome: Profeta do Rango.
  *Slogan: Ele sabe exatamente o que você precisa para matar a sua fome.
 
- 2- Init no Projeto.
+ 2-Icone:
+ 
+ ![image](https://user-images.githubusercontent.com/89554510/160508500-59b9e00c-cc6b-4d6d-b3ad-2ef93aedd762.png)
 
-
- 3- Organização MVN.
-
+ 3- Init no Projeto.
 
  4- Integração do Banco de dados.
   *Conforme modelo disposto na documentação: https://aboutreact.com/example-of-sqlite-database-in-react-native/
+  
+20/03/2022: Separação MVN.
 
+21/03/2022: Iniciaram-se então os testes para as funções utilizaas como: registro, login, delete de login entre outros.
+Todos os testes foram um sucesso e funcionaram corretamente.
+
+30/03/2022: Telas do Projeto!
+
+
+Licença: Utilizou-se a licença MIT.
