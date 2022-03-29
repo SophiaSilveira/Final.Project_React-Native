@@ -15,6 +15,13 @@ Pré-requisitos e tecnologias utilizadas:
 6. Clonar o repositório git;
 7. Dar init no projeto react-native.
 
+
+Comandos para utilizar o App:
+
+Comandos utilizados para iniciar o App:
+
+Um pouco sobre a variável de ambiente:
+
 Linha de Trabalho:
 Utilizamos a própria Main, para a atualização dos arquivos;
 
@@ -68,12 +75,27 @@ Tela da receita escolhida:
  4- Integração do Banco de dados.
   *Conforme modelo disposto na documentação: https://aboutreact.com/example-of-sqlite-database-in-react-native/
   
-20/03/2022: Separação MVN.
+20/03/2022: Separação MVN:
 
 21/03/2022: Iniciaram-se então os testes para as funções utilizaas como: registro, login, delete de login entre outros.
 Todos os testes foram um sucesso e funcionaram corretamente.
 
+
 30/03/2022: Telas do Projeto!
 
+Tela inicial:
+Tela de Registrar Usuário:
+Tela de Login Usuário:
+Tela Home:
+Tela Receita:
+Tela Registrar Sugestões:
+Tela Visualizar e Atualizar Usuário:
+Tela Login Adm:
+Tela Home Adm:
+Tela Registrar Adm;
+Tela Ver Todos Adm;
+Tela Registrar Receita;
+Tela Viazualizar Sugestões;
 
-Licença: Utilizou-se a licença MIT.
+
+Licença: Utilizamos a licença MIT.
