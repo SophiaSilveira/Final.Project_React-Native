@@ -86,7 +86,7 @@ const  SuggestionsRegister = ({navigation}) => {
       <View style={styles.container}>
         <View>
             <Image
-               source={require('../../img/Logo.png')}
+               source={require('C:/Users/leona/Documents/GitHub/Final.Project_React-Native/ProfetaDoRango/src/Assests/img/Logo.png')}
                style={styles.img} />
         </View>
         <View style={{flex: 1}}>

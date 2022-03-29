@@ -41,7 +41,7 @@ function UserOption({navigation}) {
           width: largura,
           height: altura,
           backgroundColor: '#FAB36D'}}/>
-       <View><Image source={require('../../img/Logo.png')} style={styles.img}/></View>
+       <View><Image source={require('C:/Users/leona/Documents/GitHub/Final.Project_React-Native/ProfetaDoRango/src/Assests/img/Logo.png')} style={styles.img}/></View>
       <Text style={styles.tittle}> O PROFETA DO RANGO </Text>
       <Text style={styles.presentation}>O Profeta do Rango é o aplicativo culinário para você,
                                         indeciso ou não, chefe de cozinha iniciante ou
