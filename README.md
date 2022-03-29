@@ -176,17 +176,25 @@ Tela Ver Todos Adm: Conforme os adm forem registrados a lista aumentará.
 
 Tela Registrar Receita;
 parte1-
+
   ![image](https://user-images.githubusercontent.com/89554510/160687969-2637dfa7-856e-451c-b872-4592afda5cc0.png)
 
+
 parte2-
+
   ![image](https://user-images.githubusercontent.com/89554510/160688074-8423c188-1609-4049-8f88-bec618d86306.png)
+
 
 Tela Viazualizar Sugestões;
 pate1- 
+
   ![image](https://user-images.githubusercontent.com/89554510/160688230-6ee8d77b-8742-44e7-adc8-ebb53f8465e7.png)
 
+
 parte2-
+
 ![image](https://user-images.githubusercontent.com/89554510/160688350-365c3186-c952-453f-b9de-7213fefc791c.png)
+
 
 
 Aqui chegamos ao fim do APP! Espero que tenha lhe sido útil.
