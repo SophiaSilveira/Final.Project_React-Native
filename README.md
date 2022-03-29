@@ -21,7 +21,7 @@ A repository for the AppI module.
 <h3> Um pouco sobre a variável de ambiente: </h3> Neste trabalho foi utilizada a IDE Android Studio, que é um ambiente de desenvolvimento integrado para desenvolver para a plataforma Android. Para isto foram necessárias certas configurações, como a instalação do Node e o init no projeto, passos que você pode encontrar em: https://reactnative.dev/docs/environment-setup
 
 
-<h2> Neste trabalho será utilizamos o React-native, que é uma biblioteca Javascript criada pelo Facebook. Para mais informações, tutoriais de instalação dos requisitos, e exemplos funcionais, acesse: https://reactnative.dev/docs/getting-started </h2>
+<h3> Neste trabalho utilizamos o React-native, que é uma biblioteca Javascript criada pelo Facebook. Para mais informações, tutoriais de instalação dos requisitos, e exemplos funcionais, acesse: https://reactnative.dev/docs/getting-started </h3>
 
 
 <h3> Comandos para utilizar o App: </h3>
