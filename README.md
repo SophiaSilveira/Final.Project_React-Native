@@ -93,7 +93,7 @@ Tela da receita escolhida:
 <img src="https://user-images.githubusercontent.com/89792528/159138332-18d4bd9f-9bc3-4d3e-b9b1-c39f6734a070.png" width="300" height="500" />
 
 
-<h3> 17/03/2022: Separação MVN:
+<h3> 17/03/2022: Separação MVN:</h3>
  
  <img src="https://user-images.githubusercontent.com/89554510/160684755-514790b6-bd3a-4a4d-ad0e-a6feb644baa0.png" width="350" height="550" />
 
@@ -101,7 +101,7 @@ Tela da receita escolhida:
 -Dentro dos diretórios das Telas encontram-se os arquivos index.js.
  
  <img src="https://user-images.githubusercontent.com/89554510/160684966-6ed9675f-848e-4526-97b6-b4af9722d2fe.png" width="350" height="550" />
-</h3>
+
 
 19 e 20/03/2022: Escolha do banco de dados Sqlite. </h3>
  *Conforme modelo disposto na documentação: https://aboutreact.com/example-of-sqlite-database-in-react-native/
