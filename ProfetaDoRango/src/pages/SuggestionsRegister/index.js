@@ -176,7 +176,9 @@ const styles = StyleSheet.create({
 
     img: {
       width: 200,
-      height: 240,
+      height: 320,
+      marginBottom: -100,
+      marginTop: 10,
     },
 
     padding: {

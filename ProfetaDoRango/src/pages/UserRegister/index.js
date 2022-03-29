@@ -63,11 +63,7 @@ const  UserRegister = ({navigation}) => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={{flex: 1, backgroundColor: '#ff9939', alignItems: 'center'}}>
-        <View>
-            <Image
-                source={require('../../img/Logo.png')}
-                style={styles.img} />
-        </View>
+        <View><Image source={require('../../img/Logo.png')} style={styles.img}/></View>
         <View style={{flex: 1}}>
           <ScrollView keyboardShouldPersistTaps="handled">
             <KeyboardAvoidingView
@@ -110,7 +106,8 @@ const styles = StyleSheet.create({
 
     img: {
       width: 200,
-      height: 240,
+      height: 340,
+      marginBottom: -100,
     },
 
     padding: {

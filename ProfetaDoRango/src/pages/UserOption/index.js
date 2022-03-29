@@ -41,10 +41,7 @@ function UserOption({navigation}) {
           width: largura,
           height: altura,
           backgroundColor: '#FAB36D'}}/>
-      <View>
-        <Image source={require('../../img/Logo.png')}
-        style={styles.img} />
-      </View>
+       <View><Image source={require('../../img/Logo.png')} style={styles.img}/></View>
       <Text style={styles.tittle}> O PROFETA DO RANGO </Text>
       <Text style={styles.presentation}>O Profeta do Rango é o aplicativo culinário para você,
                                         indeciso ou não, chefe de cozinha iniciante ou
@@ -78,8 +75,8 @@ const styles = StyleSheet.create({
 
     img: {
       width: 200,
-      height: 240,
-      marginBottom: 20,
+      height: 340,
+      marginBottom: -70,
     },
 
     tittle: {
