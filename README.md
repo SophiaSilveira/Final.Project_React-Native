@@ -77,7 +77,7 @@ Tela do SplashScreen:
 
 Tela do Login:
 
-![Tela de login](https://user-images.githubusercontent.com/89792528/159138293-0c5b62ad-8293-4e7e-811f-71a265e40b4b.png)
+![Tela de login](https://user-images.githubusercontent.com/89792528/159138293-0c5b62ad-8293-4e7e-811f-71a265e40b4b.png = 250x250)
 
 
 Tela inicial das receitas:
