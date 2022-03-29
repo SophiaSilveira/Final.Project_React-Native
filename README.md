@@ -199,6 +199,6 @@ parte2-
 
 
 
-Aqui chegamos ao fim do APP! Espero que tenha lhe sido útil.
+Aqui chegamos ao fim do APP! Esperamos que tenha lhe sido útil.
 
 Licença: Utilizamos a licença MIT.
