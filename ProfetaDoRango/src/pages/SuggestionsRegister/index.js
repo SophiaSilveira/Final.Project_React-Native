@@ -86,14 +86,14 @@ const  SuggestionsRegister = ({navigation}) => {
       <View style={styles.container}>
         <View>
             <Image
-               source={require('C:/Users/leona/Documents/GitHub/Final.Project_React-Native/ProfetaDoRango/src/Assests/img/Logo.png')}
+               source={require('./../../assets/img/Logo.png')}
                style={styles.img} />
         </View>
-        <View style={{flex: 1}}>
+        <View style={styles.flex}>
           <ScrollView keyboardShouldPersistTaps="handled">
             <KeyboardAvoidingView
               behavior="padding"
-              style={{flex: 1, justifyContent: 'space-between'}}>
+              style={styles.input}>
               <Mytextinput
                 placeholder="Digite o nome da receita: "
                 onChangeText={
@@ -191,6 +191,15 @@ const styles = StyleSheet.create({
       textAlign: 'center',
       fontSize: 15,
       marginBottom: -150,
+    },
+
+    flex: {
+     flex: 1,
+    },
+
+    input: {
+     flex: 1,
+     justifyContent: 'space-between',
     },
 });
 

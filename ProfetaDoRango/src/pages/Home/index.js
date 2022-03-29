@@ -4,86 +4,85 @@ import {View,
         StyleSheet,
         TouchableOpacity,
         Image} from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 function Home({navigation}) {
-
   return (
     <View style = {styles.container}>
       <View style={styles.appBar}>
             <Text style={styles.title}>RECEITA</Text>
       </View>
      <View style={styles.options}>
-      <TouchableOpacity
-        style={styles.box}
-        onPress = { () =>
-          navigation.navigate('Childish')}>
-           <Text>INFANTIL</Text>
-      </TouchableOpacity>
-      <TouchableOpacity
-        style={styles.box}
-        onPress = { () =>
-          navigation.navigate('Drinks')}>
-            <Text>BEBIDAS</Text>
-      </TouchableOpacity>
-      <TouchableOpacity
-      style={styles.box}
-        onPress = { () =>
-          navigation.navigate('Snacks')}>
-            <Text>LANCHES</Text>
-      </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.box}
+          onPress = { () =>
+            navigation.navigate('Childish')}>
+             <Text>INFANTIL</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.box}
+          onPress = { () =>
+            navigation.navigate('Drinks')}>
+              <Text>BEBIDAS</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.box}
+          onPress = { () =>
+            navigation.navigate('Snacks')}>
+              <Text>LANCHES</Text>
+        </TouchableOpacity>
      </View>
      <View style={styles.revenue}>
+       <View style={styles.image}>
+         <View style={styles.imageBox}>
+           <Image
+             style={styles.img}
+             source={{uri: 'https://www.receiteria.com.br/wp-content/uploads/receitas-de-batida-de-abacaxi-1.jpg'}} />
+         </View>
+         <TouchableOpacity
+           onPress = { () =>
+           navigation.navigate('BatidaAlcoolica')}>
+             <Text style={styles.text}>Receita de Batida alcoólica</Text>
+         </TouchableOpacity>
+      </View>
       <View style={styles.image}>
-            <View style={styles.imageBox}>
-                <Image
-                 style={styles.img}
-                 source={{uri: 'https://www.receiteria.com.br/wp-content/uploads/receitas-de-batida-de-abacaxi-1.jpg'}} />
-            </View>
+        <View style={styles.imageBox}>
+          <Image
+            style={styles.img}
+            source={{uri: 'https://mesaesabor.com.br/wp-content/uploads/2021/07/56-Receita-de-Panqueca-Colorida-com-Molho-Branco-Vegana.png'}}
+          />
+        </View>
         <TouchableOpacity
-             onPress = { () =>
-             navigation.navigate('BatidaAlcoolica')}>
-            <Text style={styles.text}>Receita de Batida alcoólica</Text>
+          onPress = { () =>
+          navigation.navigate('Panquecas')}>
+          <Text style={styles.text}>Receita de Panquecas coloridas</Text>
         </TouchableOpacity>
       </View>
       <View style={styles.image}>
         <View style={styles.imageBox}>
-            <Image
-                style={styles.img}
-                source={{uri: 'https://mesaesabor.com.br/wp-content/uploads/2021/07/56-Receita-de-Panqueca-Colorida-com-Molho-Branco-Vegana.png'}}
-            />
+          <Image
+            style={styles.img}
+            source={{uri: 'https://http2.mlstatic.com/D_NQ_NP_650614-MLB26232401836_102017-O.jpg'}}
+          />
         </View>
         <TouchableOpacity
-            onPress = { () =>
-            navigation.navigate('Panquecas')}>
-            <Text style={styles.text}>Receita de Panquecas coloridas</Text>
-      </TouchableOpacity>
-      </View>
-      <View style={styles.image}>
-        <View style={styles.imageBox}>
-            <Image
-                style={styles.img}
-                source={{uri: 'https://http2.mlstatic.com/D_NQ_NP_650614-MLB26232401836_102017-O.jpg'}}
-            />
-        </View>
-        <TouchableOpacity
-            onPress = { () =>
-            navigation.navigate('Pizza')}>
+          onPress = { () =>
+          navigation.navigate('Pizza')}>
             <Text style={styles.text}>Receita de Pizza caseira</Text>
         </TouchableOpacity>
       </View>
      </View>
      <View style={styles.menu}>
-      <TouchableOpacity
-        onPress = { () =>
-          navigation.navigate('UserUpdate')}>
-          <Icon name='update' size={45} color='#fff'/>
-      </TouchableOpacity>
-      <TouchableOpacity
-       onPress = { () =>
-        navigation.navigate('SuggestionsRegister')}>
-        <Icon name='message' size={45} color='#fff'/>
-      </TouchableOpacity>
+        <TouchableOpacity
+          onPress = { () =>
+            navigation.navigate('UserUpdate')}>
+            <Icon name='update' size={45} color='#fff'/>
+        </TouchableOpacity>
+        <TouchableOpacity
+          onPress = { () =>
+          navigation.navigate('SuggestionsRegister')}>
+          <Icon name='message' size={45} color='#fff'/>
+        </TouchableOpacity>
      </View>
     </View>
   );

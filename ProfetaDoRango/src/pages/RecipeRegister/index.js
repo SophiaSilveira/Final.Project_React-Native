@@ -82,13 +82,13 @@ const RecipeRegister = ({navigation}) => {
   };
 
   return (
-    <SafeAreaView style={styles.container}>
-      <View style={styles.container}>
-        <View style={{flex: 1}}>
+    <SafeAreaView style={styles.flex}>
+      <View style={styles.flex}>
+        <View style={styles.container}>
           <ScrollView keyboardShouldPersistTaps="handled">
             <KeyboardAvoidingView
               behavior="padding"
-              style={{flex: 1, justifyContent: 'space-between'}}>
+              style={styles.flex}>
               <Mytextinput
                 placeholder="Digite o nome da receita: "
                 onChangeText={
@@ -169,11 +169,6 @@ const styles = StyleSheet.create({
       backgroundColor: '#ff9939',
     },
 
-    img: {
-      width: 200,
-      height: 240,
-    },
-
     padding: {
       padding: 10,
       fontSize: 20,
@@ -184,7 +179,11 @@ const styles = StyleSheet.create({
       fontSize: 15,
       textAlign: 'center',
       marginTop: 10,
-      marginBottom: -150,
+      fontWeight: 'bold',
+    },
+
+    flex: {
+     flex: 1,
     },
 
  });

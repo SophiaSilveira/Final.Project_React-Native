@@ -62,13 +62,14 @@ const styles = StyleSheet.create({
       shadowOffset: {width: 1, height: 5},
       shadowOpacity: 1,
       ShadowRadius: 6,
-      elevation: 10
+      elevation: 10,
     },
 
     title: {
       color: '#fff',
-      fontSize: 20,
+      fontSize: 22,
       marginTop: 38,
+      fontWeight: 'bold',
     },
 
     configAdm: {

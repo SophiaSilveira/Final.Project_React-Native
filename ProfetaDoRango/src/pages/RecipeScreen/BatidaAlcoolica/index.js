@@ -1,11 +1,17 @@
 import React, {useState, useEffect} from 'react';
-import {FlatList, Text, View, SafeAreaView, StyleSheet, TouchableOpacity, Image} from 'react-native';
+import {FlatList,
+        Text,
+        View,
+        SafeAreaView,
+        StyleSheet,
+        TouchableOpacity,
+        Image} from 'react-native';
 import {openDatabase} from 'react-native-sqlite-storage';
 import Icon from 'react-native-vector-icons/AntDesign';
 
-const db = openDatabase({name: 'app_db.db', createFromLocation: 1});
+const db = openDatabase({name: 'app_db.db', createFromLocation: 2});
 
-const BatidaAlcoolica = () => {
+const BatidaAlcoolica = ({navigation}) => {
   let [flatListItems, setFlatListItems] = useState([]);
 
   useEffect(() => {
@@ -30,15 +36,17 @@ const BatidaAlcoolica = () => {
         <Image source={{uri: 'https://www.receiteria.com.br/wp-content/uploads/receitas-de-batida-de-abacaxi-1.jpg'}}
         style={styles.img}/>
         <View style={styles.box}>
-        <Text style={styles.title}>Receita</Text>
-        <Text style={styles.title}>Nome: {item.r_name}</Text>
-        <Text style={styles.title}>Tipo: {item.r_type}</Text>
-        <Text style={styles.title}>Sabor: {item.r_flavor}</Text>
-        <Text style={styles.title}>Ingredientes:</Text>
-        <Text style={styles.title}>{item.r_ingredients}</Text>
-        <Text style={styles.title}>Modo de Preparo:</Text>
-        <Text style={styles.text}>{item.r_cook}</Text>
-        <Text style={styles.text}>{item.r_tips}</Text>
+          <View style={styles.margin}>
+            <Text style={styles.titleF}>Receita:</Text>
+            <Text style={styles.title}>Nome: {item.r_name}</Text>
+            <Text style={styles.title}>Tipo: {item.r_type}</Text>
+            <Text style={styles.title}>Sabor: {item.r_flavor}</Text>
+            <Text style={styles.title}>Ingredientes:</Text>
+            <Text style={styles.title}>{item.r_ingredients}</Text>
+            <Text style={styles.title}>Modo de Preparo:</Text>
+            <Text style={styles.text}>{item.r_cook}</Text>
+            <Text style={styles.text}>{item.r_tips}</Text>
+          </View>
         </View>
         <TouchableOpacity
           style={styles.home}
@@ -68,7 +76,7 @@ const BatidaAlcoolica = () => {
 const styles = StyleSheet.create({
     list: {
      backgroundColor: '#ff9939',
-     alignItems: 'center'
+     alignItems: 'center',
     },
 
     img: {
@@ -82,25 +90,32 @@ const styles = StyleSheet.create({
       marginTop: 10,
       borderRadius: 20,
       width: '95%',
+      height: 1020,
       backgroundColor: '#efefef',
       shadowColor: '#000',
       shadowOffset: {width: -2, height: 3},
       shadowOpacity: 0.8,
       ShadowRadius: 6,
       elevation: 10,
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+
+    titleF: {
+     fontSize: 22,
+     color: '#ffaa5a',
+     fontWeight: 'bold',
     },
 
     title: {
-      padding: 8,
-      fontSize: 16,
+      padding: 10,
+      fontSize: 18,
       color: '#585858',
       width: '100%',
-      textAlign: 'center',
     },
 
     text: {
-      fontSize: 16,
-      textAlign: 'center',
+      fontSize: 18,
       padding: 10,
       color: '#585858',
       fontWeight: 'normal',
@@ -117,6 +132,11 @@ const styles = StyleSheet.create({
       borderRadius:50,
       marginTop: 10,
       marginBottom: 10,
+    },
+
+    margin: {
+      width: '80%',
+      height: '98%',
     },
 });
 

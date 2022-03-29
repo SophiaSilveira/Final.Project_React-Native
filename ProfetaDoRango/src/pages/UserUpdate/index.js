@@ -93,12 +93,12 @@ const UserUpdate = ({navigation}) => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <View style={{flex: 1}}>
-        <View style={{flex: 1}}>
+      <View style={styles.flex}>
+        <View style={styles.flex}>
           <ScrollView keyboardShouldPersistTaps="handled">
             <KeyboardAvoidingView
               behavior="padding"
-              style={{flex: 1, justifyContent: 'space-between'}}>
+              style={styles.input}>
               <Mytextinput
                 placeholder="Nome do usuário"
                 style={styles.fontSize}
@@ -157,7 +157,16 @@ const styles = StyleSheet.create({
     fontSize: {
       fontSize: 20,
       padding: 10,
-    }
+    },
+
+    flex: {
+     flex: 1,
+    },
+
+    input: {
+     flex: 1,
+     justifyContent: 'space-between',
+    },
   });
 
 export default UserUpdate;

@@ -62,13 +62,13 @@ const  UserRegister = ({navigation}) => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <View style={{flex: 1, backgroundColor: '#ff9939', alignItems: 'center'}}>
-        <View><Image source={require('C:/Users/leona/Documents/GitHub/Final.Project_React-Native/ProfetaDoRango/src/Assests/img/Logo.png')} style={styles.img}/></View>
-        <View style={{flex: 1}}>
+      <View style={styles.items}>
+        <View><Image source={require('./../../assets/img/Logo.png')} style={styles.img}/></View>
+        <View style={styles.container}>
           <ScrollView keyboardShouldPersistTaps="handled">
             <KeyboardAvoidingView
               behavior="padding"
-              style={{flex: 1, justifyContent: 'space-between'}}>
+              style={styles.keyBoard}>
               <Mytextinput
                 placeholder="Digite seu Nome Completo"
                 style={styles.padding}
@@ -104,6 +104,12 @@ const styles = StyleSheet.create({
       flex: 1,
     },
 
+    items: {
+     flex: 1,
+     backgroundColor: '#ff9939',
+     alignItems: 'center',
+    },
+
     img: {
       width: 200,
       height: 340,
@@ -113,6 +119,11 @@ const styles = StyleSheet.create({
     padding: {
       padding: 10,
       fontSize: 20,
+    },
+
+    keyBoard: {
+     flex: 1,
+     justifyContent: 'space-between',
     },
  });
 

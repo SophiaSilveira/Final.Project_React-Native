@@ -39,8 +39,8 @@ const SuggestionsScreen = () => {
         <Text style={styles.text}>{item.s_ingredients}</Text>
         <Text style={styles.title}>Modo de Preparo:</Text>
         <Text style={styles.text}>{item.s_cook}</Text>
-        <Text style={styles.text}>{item.s_tips}</Text>
-        <Text style={styles.text}>Id do usuário que enviou a sugestão: {item.user_id}</Text>
+        <Text style={styles.tips}>{item.s_tips}</Text>
+        <Text style={styles.title}>Id do usuário que enviou a sugestão: {item.user_id}</Text>
       </View>
     );
   };
@@ -96,7 +96,16 @@ const styles = StyleSheet.create({
       padding: 10,
       fontSize: 16,
       lineHeight: 25,
-      color: '#585858'
+      color: '#585858',
+    },
+
+    tips:{
+     fontSize: 17,
+     flex: 1,
+     textAlign: 'center',
+     padding: 10,
+     lineHeight: 25,
+     color: '#585858',
     },
 });
 

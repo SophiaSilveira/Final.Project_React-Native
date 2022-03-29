@@ -63,12 +63,12 @@ const  AdmRegister = ({navigation}) => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.container}>
-        <View><Image source={require('C:/Users/leona/Documents/GitHub/Final.Project_React-Native/ProfetaDoRango/src/Assests/img/Logo.png')} style={styles.img}/></View>
-        <View style={{flex: 1}}>
+        <View><Image source={require('./../../assets/img/Logo.png')} style={styles.img}/></View>
+        <View style={styles.flex}>
           <ScrollView keyboardShouldPersistTaps="handled">
             <KeyboardAvoidingView
               behavior="padding"
-              style={{flex: 1, justifyContent: 'space-between'}}>
+              style={styles.input}>
               <Mytextinput
                 placeholder="Digite seu Nome Completo"
                 onChangeText={
@@ -116,6 +116,15 @@ const styles = StyleSheet.create({
     padding: {
       padding: 10,
       fontSize: 20,
+    },
+
+    flex: {
+     flex: 1,
+    },
+
+    input: {
+     flex: 1,
+     justifyContent: 'space-between',
     },
  });
 
