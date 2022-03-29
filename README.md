@@ -109,9 +109,8 @@ Tela da receita escolhida:
 
  2-Icone:
  
- <img src="https://user-images.githubusercontent.com/89554510/160508500-59b9e00c-cc6b-4d6d-b3ad-2ef93aedd762.png" width="300" height="500" />
+ <img src="https://user-images.githubusercontent.com/89554510/160508500-59b9e00c-cc6b-4d6d-b3ad-2ef93aedd762.png" width="300" height="400" />
  
-
  3- Init no Projeto.
 
 
@@ -210,9 +209,9 @@ parte2-
 
 Tela Viazualizar Sugestões;
 
-pate1- 
+                pate1-                                                         parte2-
 
-  ![image](https://user-images.githubusercontent.com/89554510/160688230-6ee8d77b-8742-44e7-adc8-ebb53f8465e7.png)
+  ![image](https://user-images.githubusercontent.com/89554510/160688230-6ee8d77b-8742-44e7-adc8-ebb53f8465e7.png) ![image](https://user-images.githubusercontent.com/89554510/160688350-365c3186-c952-453f-b9de-7213fefc791c.png)
 
 
 parte2-
