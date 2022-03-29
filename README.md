@@ -72,12 +72,12 @@ A repository for the AppI module.
 
 Tela do SplashScreen:
 
-![Tela de inicio do app](https://user-images.githubusercontent.com/89792528/159138277-2856fc74-782e-4794-9809-b0a8fe3bb17c.png)
+![Tela de inicio do app](https://user-images.githubusercontent.com/89792528/159138277-2856fc74-782e-4794-9809-b0a8fe3bb17c.png = 100x100)
 
 
 Tela do Login:
 
-![Tela de login](https://user-images.githubusercontent.com/89792528/159138293-0c5b62ad-8293-4e7e-811f-71a265e40b4b.png = 250x250)
+![Tela de login](https://user-images.githubusercontent.com/89792528/159138293-0c5b62ad-8293-4e7e-811f-71a265e40b4b.png)
 
 
 Tela inicial das receitas:
