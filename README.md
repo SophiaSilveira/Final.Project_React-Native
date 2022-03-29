@@ -4,7 +4,7 @@ A repository for the AppI module.
 Autores: Sophia Mendes da Silveira && João Pedro Bertoletti.
 Git João: https://github.com/JPedroSB
 
-Temática- Auxiliar culinário: Aplicativo culinário para você, indeciso ou não, chefe de cozinha iniciante ou profissional a decidir seu prato(rango) do dia ou simplesmente aprender a cozinhar aquele prato pro seu/sua crush ou pra matar aquela vontade.
+Temática- Auxiliar culinário: Aplicativo culinário para você, indeciso ou não, chefe de cozinha iniciante ou profissional a decidir seu prato(rango) do dia ou    simplesmente aprender a cozinhar aquele prato pro seu/sua crush ou pra matar aquela vontade.
 
 Pré-requisitos e tecnologias utilizadas:
 1. NPM ou yarn- instalado;
@@ -16,19 +16,40 @@ Pré-requisitos e tecnologias utilizadas:
 7. Dar init no projeto react-native.
 
 
+Um pouco sobre a variável de ambiente: Neste trabalho foi utilizada a IDE Android Studio, que é um ambiente de desenvolvimento integrado para desenvolver para a plataforma Android. Para isto foram necessárias certas configurações, como a instalação do Node e o init no projeto, passos que você pode encontrar em: https://reactnative.dev/docs/environment-setup
+
+
+Neste trabalho será utilizamos o React-native, que é uma biblioteca Javascript criada pelo Facebook. Para mais informações, tutoriais de instalação dos requisitos, e exemplos funcionais, acesse: https://reactnative.dev/docs/getting-started
+
+
 Comandos para utilizar o App:
 
-Comandos utilizados para iniciar o App:
+ 1. Após clonar o repositório e iniciar seu emulador, vá ao prompt de comando ou terminal do Android Studio, entre dentro da pasta do projeto (o caminho será parecido com ' C:\APPIAndroid\ProjFinal\Final.Project_React-Native\ProfetaDoRango' e dê:
+       
+           npx react-native run-android
+       
+       
+ 2. Caso você já tenha instalado o npm, e o terminal devolva uma mensagem pedindo para você instala-lo, tente:
+ 
+           yarn install
+      
+ e de o comando 1 novamente.
+ 
+      
+ 3. Caso o terminal indique um problema no 'GRADLE' do projeto, abra o arquivo "gradle.properties", que se encontra em 'ProfetaDoRango/Android/gradle.properties',  e insira depois da última linha o seguinte: 
 
-Um pouco sobre a variável de ambiente:
+           org.gradle.jvmargs=-Xmx1536M --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-      opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED
+
+e de o comando 1 novamente.
+
 
 Linha de Trabalho:
-Utilizamos a própria Main, para a atualização dos arquivos;
+ Utilizamos a própria Main, para a atualização dos arquivos;
 
 Palheta de cores:
-ff9939;
+ ff9939;
 
-#ffffff; #efefef; #fdeca6; #585858; #111; #bebebe; #ffb875; #000; #c1c1c1; #ffdcbb; #ffaa5a;
+ #ffffff; #efefef; #fdeca6; #585858; #111; #bebebe; #ffb875; #000; #c1c1c1; #ffdcbb; #ffaa5a;
 
 ![palheta de cores](https://user-images.githubusercontent.com/89792528/160531225-b76be5c5-a01b-4d91-a999-6fb17ee5c170.png)
 
@@ -43,7 +64,8 @@ ff9939;
 
 ![image](https://user-images.githubusercontent.com/89554510/159123372-991f9ce1-df84-4ec9-9ea1-adcd208936bd.png)
 
-17/03/2022: Atualização do Wireframe:
+
+16/03/2022: Atualização do Wireframe:
 
 
 Tela do SplashScreen:
@@ -68,22 +90,8 @@ Tela da receita escolhida:
 ![Tela da receita primeira parte 2](https://user-images.githubusercontent.com/89792528/159138332-18d4bd9f-9bc3-4d3e-b9b1-c39f6734a070.png)
 
 
-19/03/2022: Escolha do banco de dados Sqlite.
 
-20/03/2022: 1- Escolha do nome e Slogan.
- *Nome: Profeta do Rango.
- *Slogan: Ele sabe exatamente o que você precisa para matar a sua fome.
-
- 2-Icone:
- 
- ![image](https://user-images.githubusercontent.com/89554510/160508500-59b9e00c-cc6b-4d6d-b3ad-2ef93aedd762.png)
-
- 3- Init no Projeto.
-
- 4- Integração do Banco de dados.
-  *Conforme modelo disposto na documentação: https://aboutreact.com/example-of-sqlite-database-in-react-native/
-  
-20/03/2022: Separação MVN:
+17/03/2022: Separação MVN:
 
 ![image](https://user-images.githubusercontent.com/89554510/160684755-514790b6-bd3a-4a4d-ad0e-a6feb644baa0.png)
 
@@ -92,11 +100,22 @@ Tela da receita escolhida:
 ![image](https://user-images.githubusercontent.com/89554510/160684966-6ed9675f-848e-4526-97b6-b4af9722d2fe.png)
 
 
-21/03/2022: Iniciaram-se então os testes para as funções utilizadas como: registro, login, delete de login entre outros.
-Todos os testes foram um sucesso e funcionaram corretamente.
+19 e 20/03/2022: Escolha do banco de dados Sqlite.
+ *Conforme modelo disposto na documentação: https://aboutreact.com/example-of-sqlite-database-in-react-native/
+
+ 1- *Nome: Profeta do Rango.
+
+ 2-Icone:
+ 
+ ![image](https://user-images.githubusercontent.com/89554510/160508500-59b9e00c-cc6b-4d6d-b3ad-2ef93aedd762.png)
+
+ 3- Init no Projeto.
 
 
-30/03/2022: Telas do Projeto!
+21/03/2022: Criação do banco de Dados e inicio dos testes para as funções que seriam utilizadas como: registro, login, delete de login entre outros.
+
+
+25 há 30/03/2022: Integração das funcionalidades testadas com o exigido e estilização das telas.
 
 Tela inicial:
 
