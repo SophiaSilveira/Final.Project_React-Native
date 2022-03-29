@@ -94,12 +94,13 @@ Tela da receita escolhida:
 
 
 <h3> 17/03/2022: Separação MVN:
+ 
+ <img src="https://user-images.githubusercontent.com/89554510/160684755-514790b6-bd3a-4a4d-ad0e-a6feb644baa0.png" width="350" height="550" />
 
-![image](https://user-images.githubusercontent.com/89554510/160684755-514790b6-bd3a-4a4d-ad0e-a6feb644baa0.png)
 
 -Dentro dos diretórios das Telas encontram-se os arquivos index.js.
-
-![image](https://user-images.githubusercontent.com/89554510/160684966-6ed9675f-848e-4526-97b6-b4af9722d2fe.png)
+ 
+ <img src="https://user-images.githubusercontent.com/89554510/160684966-6ed9675f-848e-4526-97b6-b4af9722d2fe.png" width="350" height="550" />
 
 
 19 e 20/03/2022: Escolha do banco de dados Sqlite. </h3>
@@ -109,7 +110,7 @@ Tela da receita escolhida:
 
  2-Icone:
  
- <img src="https://user-images.githubusercontent.com/89554510/160508500-59b9e00c-cc6b-4d6d-b3ad-2ef93aedd762.png" width="300" height="400" />
+ <img src="https://user-images.githubusercontent.com/89554510/160508500-59b9e00c-cc6b-4d6d-b3ad-2ef93aedd762.png" width="300" height="500" />
  
  3- Init no Projeto.
 
@@ -121,6 +122,8 @@ Tela da receita escolhida:
 
 Tela inicial:
 
+ <img src="https://user-images.githubusercontent.com/89554510/160685225-5519ce3a-b2a7-45a7-85f4-2e00ee3b8cff.png" width="400" height="600" />
+ 
   ![image](https://user-images.githubusercontent.com/89554510/160685225-5519ce3a-b2a7-45a7-85f4-2e00ee3b8cff.png)
 
 
@@ -209,9 +212,9 @@ parte2-
 
 Tela Viazualizar Sugestões;
 
-                pate1-                                                         parte2-
+parte1-
 
-  ![image](https://user-images.githubusercontent.com/89554510/160688230-6ee8d77b-8742-44e7-adc8-ebb53f8465e7.png) ![image](https://user-images.githubusercontent.com/89554510/160688350-365c3186-c952-453f-b9de-7213fefc791c.png)
+  ![image](https://user-images.githubusercontent.com/89554510/160688230-6ee8d77b-8742-44e7-adc8-ebb53f8465e7.png) 
 
 
 parte2-
