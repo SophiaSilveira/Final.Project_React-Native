@@ -2,7 +2,7 @@
 A repository for the AppI module.
 
 <h2> Autores: Sophia Mendes da Silveira && João Pedro Bertoletti. </h2>
-</h3>Git João: https://github.com/JPedroSB </h3>
+<h3>Git João: https://github.com/JPedroSB </h3>
 
 <h3> Temática- </h3> Auxiliar culinário: Aplicativo culinário para você, indeciso ou não, chefe de cozinha iniciante ou profissional a decidir seu prato(rango) do dia ou    simplesmente aprender a cozinhar aquele prato pro seu/sua crush ou pra matar aquela vontade.
 
