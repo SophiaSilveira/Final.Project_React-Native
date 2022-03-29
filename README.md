@@ -175,6 +175,7 @@ Tela Ver Todos Adm: Conforme os adm forem registrados a lista aumentará.
 
 
 Tela Registrar Receita;
+
 parte1-
 
   ![image](https://user-images.githubusercontent.com/89554510/160687969-2637dfa7-856e-451c-b872-4592afda5cc0.png)
