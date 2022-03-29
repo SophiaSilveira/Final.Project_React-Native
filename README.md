@@ -58,8 +58,9 @@ A repository for the AppI module.
 
 
 <h3>14/03/2022: Base Wireframe sem SplashScreen:
+ 
+ <img src="https://user-images.githubusercontent.com/89554510/158917524-2c45a0ef-3443-4905-8e35-8adaaf2ad21d.png" width="500" height="700" />
 
-![image](https://user-images.githubusercontent.com/89554510/158917524-2c45a0ef-3443-4905-8e35-8adaaf2ad21d.png)
 </h3>
 
 <h3>15/03/2022: Observação da experiência de usuário-UX:
@@ -108,7 +109,8 @@ Tela da receita escolhida:
 
  2-Icone:
  
- ![image](https://user-images.githubusercontent.com/89554510/160508500-59b9e00c-cc6b-4d6d-b3ad-2ef93aedd762.png)
+ <img src="https://user-images.githubusercontent.com/89554510/160508500-59b9e00c-cc6b-4d6d-b3ad-2ef93aedd762.png" width="300" height="500" />
+ 
 
  3- Init no Projeto.
 
