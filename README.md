@@ -33,14 +33,14 @@ Comandos para utilizar o App:
  
            yarn install
       
- e de o comando 1 novamente.
+   e de o comando 1 novamente.
  
       
  3. Caso o terminal indique um problema no 'GRADLE' do projeto, abra o arquivo "gradle.properties", que se encontra em 'ProfetaDoRango/Android/gradle.properties',  e insira depois da última linha o seguinte: 
 
            org.gradle.jvmargs=-Xmx1536M --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-      opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED
 
-e de o comando 1 novamente.
+  e de o comando 1 novamente.
 
 
 Linha de Trabalho:
