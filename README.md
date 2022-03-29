@@ -28,28 +28,7 @@ Utilizamos a própria Main, para a atualização dos arquivos;
 Palheta de cores:
 ff9939;
 
-#ffffff;
-
-#efefef;
-
-#fdeca6;
-
-#585858;
-
-#111;
-
-#bebebe;
-
-#ffb875;
-
-#000;
-
-#c1c1c1;
-
-#ffdcbb;
-
-#ffaa5a;
-
+#ffffff; #efefef; #fdeca6; #585858; #111; #bebebe; #ffb875; #000; #c1c1c1; #ffdcbb; #ffaa5a;
 
 ![palheta de cores](https://user-images.githubusercontent.com/89792528/160531225-b76be5c5-a01b-4d91-a999-6fb17ee5c170.png)
 
@@ -106,6 +85,13 @@ Tela da receita escolhida:
   
 20/03/2022: Separação MVN:
 
+![image](https://user-images.githubusercontent.com/89554510/160684755-514790b6-bd3a-4a4d-ad0e-a6feb644baa0.png)
+
+-Dentro dos diretórios das Telas encontram-se os arquivos index.js.
+
+![image](https://user-images.githubusercontent.com/89554510/160684966-6ed9675f-848e-4526-97b6-b4af9722d2fe.png)
+
+
 21/03/2022: Iniciaram-se então os testes para as funções utilizaas como: registro, login, delete de login entre outros.
 Todos os testes foram um sucesso e funcionaram corretamente.
 
@@ -113,18 +99,67 @@ Todos os testes foram um sucesso e funcionaram corretamente.
 30/03/2022: Telas do Projeto!
 
 Tela inicial:
-Tela de Registrar Usuário:
-Tela de Login Usuário:
-Tela Home:
-Tela Receita:
-Tela Registrar Sugestões:
-Tela Visualizar e Atualizar Usuário:
-Tela Login Adm:
-Tela Home Adm:
-Tela Registrar Adm;
-Tela Ver Todos Adm;
-Tela Registrar Receita;
-Tela Viazualizar Sugestões;
+  ![image](https://user-images.githubusercontent.com/89554510/160685225-5519ce3a-b2a7-45a7-85f4-2e00ee3b8cff.png)
 
+Tela de Registrar Usuário:
+  ![image](https://user-images.githubusercontent.com/89554510/160685332-61b7a4bc-fef0-41f8-9531-b3874fed9e05.png)
+
+Tela de Login Usuário:
+  ![image](https://user-images.githubusercontent.com/89554510/160685482-932a56bb-cb7c-4e4a-bf7a-2b0d0bb84be3.png)
+
+Tela Home:
+  ![image](https://user-images.githubusercontent.com/89554510/160685725-ce1efcc7-6f51-441c-b614-117a28f9463a.png)
+
+Tela Receita:
+parte1 -
+  ![image](https://user-images.githubusercontent.com/89554510/160685833-cca3d65e-24f1-459f-99e6-cfe1da26ec35.png)
+
+parte2 - 
+  ![image](https://user-images.githubusercontent.com/89554510/160686055-4b39639a-ce28-4126-a8ae-5de2e4190bb8.png)
+
+parte3 - 
+  ![image](https://user-images.githubusercontent.com/89554510/160686186-5b08e2e9-384c-465d-a8a8-8dc08a7aa0ec.png)
+
+Tela Registrar Sugestões:
+parte1 -
+  ![image](https://user-images.githubusercontent.com/89554510/160686452-0b5c7b47-8e84-470c-a754-615071f67871.png)
+
+parte2-
+  ![image](https://user-images.githubusercontent.com/89554510/160686599-cc705a1b-3a00-4284-bcac-a0b93ffa7ede.png)
+
+parte3-
+  ![image](https://user-images.githubusercontent.com/89554510/160686690-aae8d485-86b5-4137-aacd-e567e1c49391.png)
+
+Tela Visualizar e Atualizar Usuário:
+  ![image](https://user-images.githubusercontent.com/89554510/160686869-c13ad349-18aa-4102-b9e4-4876403944fe.png)
+
+Tela Login Adm: User préviamente cadastrado, ao utilizar a aplicação pela primeira vez deve-se utilizar este!
+  ![image](https://user-images.githubusercontent.com/89554510/160687242-712ff3d1-4450-4f9d-9caa-6f442c0feb04.png)
+
+Tela Home Adm:
+  ![image](https://user-images.githubusercontent.com/89554510/160687507-c2d85bc9-8c28-4756-8526-b3d849fa58a2.png)
+
+Tela Registrar Adm;
+![image](https://user-images.githubusercontent.com/89554510/160687601-7a2f2c99-195e-48af-a340-ab20ee61f277.png)
+
+Tela Ver Todos Adm: Conforme os adm forem registrados a lista aumentará.
+![image](https://user-images.githubusercontent.com/89554510/160687727-5949aeec-13df-4d6e-98f5-4f5be2940045.png)
+
+Tela Registrar Receita;
+parte1-
+  ![image](https://user-images.githubusercontent.com/89554510/160687969-2637dfa7-856e-451c-b872-4592afda5cc0.png)
+
+parte2-
+  ![image](https://user-images.githubusercontent.com/89554510/160688074-8423c188-1609-4049-8f88-bec618d86306.png)
+
+Tela Viazualizar Sugestões;
+pate1- 
+  ![image](https://user-images.githubusercontent.com/89554510/160688230-6ee8d77b-8742-44e7-adc8-ebb53f8465e7.png)
+
+parte2-
+![image](https://user-images.githubusercontent.com/89554510/160688350-365c3186-c952-453f-b9de-7213fefc791c.png)
+
+
+Aqui chegamos ao fim do APP! Espero que tenha lhe sido útil.
 
 Licença: Utilizamos a licença MIT.
