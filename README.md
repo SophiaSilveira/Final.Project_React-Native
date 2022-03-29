@@ -1,12 +1,13 @@
 # Final.Project_React-Native
 A repository for the AppI module.
 
-Autores: Sophia Mendes da Silveira && João Pedro Bertoletti.
-Git João: https://github.com/JPedroSB
+<h1> Autores: Sophia Mendes da Silveira && João Pedro Bertoletti.
+     Git João: https://github.com/JPedroSB </h1>
 
-Temática- Auxiliar culinário: Aplicativo culinário para você, indeciso ou não, chefe de cozinha iniciante ou profissional a decidir seu prato(rango) do dia ou    simplesmente aprender a cozinhar aquele prato pro seu/sua crush ou pra matar aquela vontade.
+<h2> Temática- </h2> Auxiliar culinário: Aplicativo culinário para você, indeciso ou não, chefe de cozinha iniciante ou profissional a decidir seu prato(rango) do dia ou    simplesmente aprender a cozinhar aquele prato pro seu/sua crush ou pra matar aquela vontade.
 
-<h1> Pré-requisitos e tecnologias utilizadas:<h1>
+ Pré-requisitos e tecnologias utilizadas:
+ 
 1. NPM ou yarn- instalado;
 2. Node;
 3. SDK Android Studio;
